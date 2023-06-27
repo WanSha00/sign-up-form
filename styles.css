@@ -1,0 +1,117 @@
+input {
+  border: 2px solid #E5E7EB;
+  margin-bottom: 15px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+    border-color: blue;
+    box-shadow: 2px 8px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .left-side{
+    width: 500px;
+    height: 860px;
+    background-image: url("img/bg.jpg");
+    background-position: center;
+  }
+
+  .right-side{
+    background-color: aliceblue;
+  }
+
+  .page{
+    display: flex;
+  }
+
+  .details-section{
+    width: 1350px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .details{
+    display: flex;
+   
+  }
+
+  .speech{
+    width: 800px;
+    height: auto;
+    font-size: 30px;
+    padding-top: 150px;
+    padding-left: 50px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+  }
+
+  .form-title{
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .createbtn{
+    width: auto;
+    height: auto;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 50px;
+    text-align: center;
+  }
+
+  .login{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 20px;
+  }
+
+  a{
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+  }
+
+  .label{
+    display: flex;
+    flex-direction: column;
+    padding-right: 80px;
+  }
+
+  label{
+    font-size: 15px;
+  }
+
+  .big-title{
+    width:500px;
+    height:150px;
+    color: white;
+    background-color: rgba(138, 43, 226, 0.3) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-family: 'UniqueRegular';
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 200px;
+    margin-bottom: 450px;
+
+  }
+
+  .bg-credit{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+  }
